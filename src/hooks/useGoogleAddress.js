@@ -12,4 +12,4 @@ const useGoogleAddress = address => {
   return map;
 };
 
-export default useGoogleAddress;ress
+export default useGoogleAddress;
