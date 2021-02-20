@@ -1,9 +1,9 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
-const MapaContainer = ({ longitude, latitude}) => {
+const MapaContainer = () => {
     
-const position = [latitude, longitude]
+const position = [51.505, -0.09]
   return (
 
        <MapContainer center={position} zoom={5} scrollWheelZoom={false} className="mapid">
